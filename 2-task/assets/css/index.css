@@ -1,0 +1,35 @@
+section{
+    width: 90%;
+}
+
+section .list{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    width: 55%;
+  
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-right: 1px solid gray;
+   margin-left: 20px;
+
+}
+
+.content i{
+margin-top: 25px;
+color: red;
+}
+
+.info{
+    width:140px;
+}
+
+.info p{
+    font-size: 12px;
+    color: gray;
+}
+

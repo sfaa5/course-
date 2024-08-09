@@ -1,0 +1,155 @@
+section{
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+body{
+    background-color:#F9F9F9 ;
+}
+
+.title h4{
+    color: red;
+margin-left: 45%;
+}
+
+.title h1{
+    font-size: 30px;
+    margin-left: 34%;
+    width:800px ;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.properties{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+justify-content: center;
+
+    
+}
+
+.propertie{
+    position: relative;
+
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 0px rgb(224 193 193 / 75%);
+    padding: 10px 10px;
+}
+
+.propertie h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img1{
+    width: 300px;
+    height: 250px;
+    background-image: url(../images/propertie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.img2{
+    width: 300px;
+    height: 250px;
+    background-image: url(../images/propertie2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.img3{
+    width: 300px;
+    height: 250px;
+    background-image: url(../images/propertie3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.location{
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+.location i {
+
+    margin-right: 5px;
+}
+
+.characs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    margin-bottom: 20px;
+    
+}
+
+.charac {
+
+    
+    
+}
+
+.charac i{
+    color: red;    
+}
+
+.pricHeart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.pricHeart h1{
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+.heart{
+    border-radius: 9999px;
+    padding: 10px 10px ;
+    border: 1px solid gray;
+    
+
+}
+
+.heart i {
+    color: red;
+}
+
+.logo{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px 13px;
+    font-size: small;
+    top:22px ;
+    left: 20px;
+
+}
+
+.discount{
+
+    position: absolute;
+    color: rgb(75, 72, 72);
+    background-color: rgb(227, 209, 209);
+    border-radius: 10px;
+    padding: 2px 13px;
+    font-size: small;
+    top:22px ;
+    left: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,180 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: var(--body-fonts), sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--title-fonts);
+    color: var(--dark-color);
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    word-wrap: break-word;
+    
+  }
+  
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    color: inherit;
+    text-decoration: none !important;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-style: normal;
+    line-height: 44px;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-style: normal;
+    line-height: 40px;
+  }
+  
+  h4 {
+    font-size: 28px;
+    font-style: normal;
+    line-height: 36px;
+  }
+  
+  h5 {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+  }
+  
+  h6 {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 28px;
+  }
+  
+  /*===== HTML Tags =====*/
+  a,
+  .button {
+    color: var(--primary-color);
+    outline: none !important;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none !important;
+  }
+
+  section{
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .about-us{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about-us .info{
+    width: 40%;
+  }
+
+  .about-us .image {
+    position: relative;
+  }
+
+  .about-us .image .text {
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 270px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 33, 85, 0.1);
+    padding: 20px 40px;
+    border-radius: 5px;
+  }
+
+  .about-us .image .text h1{
+    font-size: 50px;
+    color: red;
+    
+  }
+
+  .about-us .image .text span{
+    line-height: 0 !important;
+    color: gray;
+  }
+
+  .about-us .info p {
+    color: red;
+
+  }
+
+  .about-us .info{
+display: flex;
+gap: 2rem;
+flex-direction: column;
+align-items: flex-start;
+
+  }
+  .about-us .info  .service{
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-us .info  .service span{
+    color: gray;
+  }
+  .about-us .info  .service .icon {
+    border: 1px dotted black;
+ 
+    padding:16px;
+    height: 56px;
+    border-radius: 999px;
+    background-color:rgb(250, 184, 184) ;
+    flex: 0 1 auto;
+  }
+
+  .about-us .info button {
+    
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+
+
+  

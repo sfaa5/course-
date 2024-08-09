@@ -1,0 +1,116 @@
+section{
+    width: 100%;
+
+}
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: var(--body-fonts), sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+
+
+section h2 {
+    margin-top: 3%;
+    margin-left: 41%;
+    font-size: 36px;
+}
+  .plans {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .plans .plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #EFF1F9;
+    width: 25%;
+    border-radius: 20px;
+  }
+
+  .plans .icon{
+    position: absolute;
+    padding: 40px ;
+    border-radius: 99px;
+    color: white;
+    background-color: blue;
+border:5px solid #EFF1F9 ;
+text-align: center;
+display: grid;
+top: -90px;
+left: 100px;
+
+  }
+
+  .plans .icon strong {
+    font-size: 25px;
+    font-weight:800;
+  }
+
+  .plans .plan .icon span {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+
+  .plans .plan .top {
+    margin-top: 30px;
+    text-align: center;
+
+  }
+
+  .plans .plan .top h1{
+    font-size: 30px;
+
+  }
+
+  .plans .plan hr {
+    margin:30px 0px;
+    width: 280px;
+height: 1px;
+background-color: black;
+
+    
+  }
+  .plans .plan .mid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    row-gap: 16px;
+   color: gray;
+margin-bottom: 30px;
+  }
+
+  .plans .plan button {
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+
+

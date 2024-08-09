@@ -1,0 +1,105 @@
+section{
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: var(--body-fonts), sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+  
+  .Know-us{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .Know-us .left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 100px;
+  }
+
+  .Know-us .left .intro {
+    color: red;
+  }
+
+  .Know-us .left h1{
+    font-size: 40px;
+  }
+
+  .Know-us .left .categories{
+    display: inline-flex;
+    gap: 20px;
+  }
+
+  .Know-us .left .categories .category i {
+    position: absolute;
+    top: -15px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 33, 85, 0.1);
+    padding: 20px;
+    border-radius: 999px;
+    background-color: white;
+    border: none;
+  }
+.Know-us .left .categories .category{
+    position: relative;
+    box-shadow: 0px 5px 15px 0px rgba(0, 33, 85, 0.1);
+ 
+    padding: 50px 30px 30px 30px;
+}
+
+.Know-us .left .categories .categor strong{
+    margin-bottom: 10px;
+}
+
+.Know-us .right{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    gap: 20px;
+
+    padding: 28px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 33, 85, 0.1);
+}
+
+.Know-us .right .two-inputs input{
+width: 49.5%;
+min-height: 35px;
+padding-left: 5px;
+}
+.Know-us .right  input{
+    min-height: 35px;
+    padding-left: 5px;
+}
+.Know-us .right textarea{
+    min-height: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.Know-us .right button {
+    border-radius: 6px;
+    line-height: 40px;
+border: none;
+color: white;
+background-color: red;
+
+}
