@@ -1,0 +1,150 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: var(--body-fonts), sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+
+
+  section {
+    width: 100%;
+  }
+
+  ul li{
+    color: rgb(178, 171, 171);
+    font-size: 11px;
+    text-transform: capitalize;
+  }
+  li::marker{
+    color: orangered;
+  }
+  
+  span{
+    font-size: 10px;
+    color: rgb(178, 171, 171);
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+  }
+  h2{
+font-size: 16px;
+  }
+  h1{
+    color: white;
+    font-size: 19px;
+    margin-left: -11px;
+    text-transform: capitalize;
+
+  }
+
+  .footer
+  {
+    position: relative;
+    background-color: rgb(70, 68, 68);
+    display: grid;
+    grid-template-columns: 170px auto auto auto;
+    margin-top: 100px;
+    padding: 100px ;
+    gap: 60px;
+  }
+
+  .footer .top{
+    position: absolute;
+    top: -30px;
+    display: flex;
+
+border: 1px solid black;
+margin-left: 20%;
+background-color: white;
+padding: 16px 40px;
+gap: 20px;
+line-height: 1rem;
+  }
+
+
+
+  .footer .top .service{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer .top .service i{
+    color: orangered;
+  }
+
+  .footer .col ,.footer .col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer .col img {
+    width: 140px;
+    margin-bottom: 10px;
+  }
+
+  .footer .social {
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .footer .social i {
+    color:white;
+
+    background-color: black;
+    padding: 10px;
+  }
+
+  .footer .col .post img {
+    width: 60px;
+    border-radius: 4px;
+  }
+
+  .footer .col .post {
+    display: inline-flex;
+    max-width:158px;
+    gap: 8px;
+    margin-left: -10px;
+    
+  }
+
+
+  .footer .col .post span {
+    line-height: 0.9rem;
+
+  }
+
+  .footer .col .post span p {
+    color: orangered;
+  }
+
+  .bottom {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 270px;
+    line-height: 30px;
+  }
+
+  .bottom ul{
+    list-style-type:none;
+    display: flex;
+    gap: 15px;
+  }
