@@ -1,0 +1,109 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+
+
+  section {
+    position: relative;
+    width: 100%;
+
+  
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+
+
+  ul li{
+    color: rgb(178, 171, 171);
+    font-size: 11px;
+    text-transform: capitalize;
+  }
+  li::marker{
+    color: orangered;
+  }
+  
+  span{
+    font-size: 10px;
+    color: rgb(178, 171, 171);
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+  }
+  h2{
+font-size: 16px;
+  }
+  h1{
+    color: black;
+    font-size: 19px;
+    
+    text-transform: capitalize;
+
+  }
+
+  .steps{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
+
+  .step{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: blueviolet;
+height: 180px;
+border-radius: 5px;
+
+  }
+  .step .number {
+    font-size: 48px; /* Adjust the font size as needed */
+    color: transparent; /* Make the inner color transparent */
+    -webkit-text-stroke: 1px rgb(209, 200, 200); /* Border color and thickness */
+text-align: end;
+  }
+
+  .step i {
+    position: absolute;
+    font-size: 30px;
+    top: 30px;
+    left: 15px;
+    color: white;
+  }
+
+  .step .info {
+    padding: 10px 17px 14px 17px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: px;
+color: white;
+  }
+
+  .step .info strong{
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .step .info span
+  {
+    color: white;
+    width: 150px;
+  }
+

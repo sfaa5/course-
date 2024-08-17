@@ -1,0 +1,133 @@
+section{
+    width: 100%;
+ background-color: #002856;
+ height: 65vh;
+ margin-top: 80px;
+}
+
+ul{
+  list-style: none;
+}
+i{
+  margin-right: 8px;
+  color: #FF375F;
+}
+hr{
+  color: red;
+  background-color: #FF375F;
+  height: 1.5px;
+  border: none;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: var(--body-fonts), sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+   
+  span ,li {
+    font-size: 12px;
+    color: rgb(193, 185, 185);
+  }
+  h1{
+    font-size: 16px;
+    color: white;
+
+  }
+
+  section .footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px 50px;
+  }
+
+  section .footer img{
+
+    max-width: 100px;
+  }
+
+  section .footer .col-1 {
+    grid-column: 1/2;
+  }
+  section .footer .col-1 span{
+    width: 300px;
+  }
+  section .footer .col ,section .footer .col-1, section .footer .col ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  section .footer .col input{
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    
+    background-color:#002856 ;
+    border: 1px solid wheat;
+  }
+
+  button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: wheat;
+    background-color:#FF375F;
+    border: none;
+  }
+  section .footer .col .before li{
+    position: relative;
+  }
+
+  
+  section .footer .col .before li::before{
+font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    font-weight: 900;
+margin-right: 7px;
+    line-height: 18px;
+    font-size: 10px;
+  }
+
+  .bottom-foot{
+    grid-column: 1/5;
+   border-top: 2px solid #103560;
+ display: flex;
+ gap: 100px;
+ justify-content: space-between;
+ padding-top: 10px;
+
+  }
+  .bottom-foot .left span {
+ display: inline-flex;
+  
+  }
+
+  .bottom-foot .left span p{
+     margin-left: 4px;
+      color: #FF375F;
+  }
+.bottom-foot .right i {
+  color: white;
+}

@@ -1,0 +1,167 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--white-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+
+
+  section {
+    width: 100%;
+    margin-top: 30px;
+
+
+  }
+
+  ul li{
+    color: rgb(178, 171, 171);
+    font-size: 11px;
+    text-transform: capitalize;
+  }
+  li::marker{
+    color: orangered;
+  }
+  
+  span{
+    font-size: 10px;
+    color: rgb(178, 171, 171);
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+  }
+  h2{
+font-size: 16px;
+  }
+  h1{
+    color: black;
+    font-size: 19px;
+    
+    text-transform: capitalize;
+
+  }
+
+img{
+   
+   
+    height: 300px;
+
+}
+
+.offer{
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    padding: 6px 15px;
+    position: absolute;
+    border-radius: 20px;
+    top: 14px;
+    left: 15px;
+}
+
+
+.text {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.text span {
+    color: red;
+    position: relative;
+}
+
+.text span::after{
+content: "";
+position: absolute;
+height: 1.5px;
+width: 15px;
+background-color: red;
+top: 50%;
+left:55px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 230px 230px 230px ;
+gap: 20px;
+justify-content:  center;
+
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cards .card img{
+    width: 230px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.cards .card .info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+    border: 1px solid rgb(221, 214, 214);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.cards .card .info .date{
+display: inline-flex;
+gap: 15px;
+}
+.cards .card .info .date .first,.cards .card .info .date .second {
+    color: gray;
+    font-size: 10px;
+}
+
+.cards .card .info .date i {
+    color: red;
+}
+
+.cards .card .info p {
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:small;
+}
+
+
+.cards .card .info .bottom{
+    color: rgb(81, 80, 80);
+    position: relative;
+}
+
+
+.cards .card .info .bottom::after
+{
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-weight: 900;
+position: absolute;
+left: 50px;
+color: rgb(81, 80, 80);
+    font-size: 8px;
+    top: 10%;
+
+
+}
